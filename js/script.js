@@ -5,13 +5,13 @@ const opzioni = {
         return {
             lista: [
                 {
-                    domanda1: 'hai fatto i compito?'
+                    domandaUno: 'hai fatto i compito?'
                 },
                 {
-                    domanda2: 'hai fatto la spesa?'
+                    domandaDue: 'hai fatto la spesa?'
                 },
                 {
-                    domanda3: 'hai portato fuori il cane?'
+                    domandaTre: 'hai portato fuori il cane?'
                 }
             ]
         }
