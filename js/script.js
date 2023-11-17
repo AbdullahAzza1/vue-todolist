@@ -1,4 +1,4 @@
-const { creteApp } = Vue;
+const { createApp } = Vue;
 
 const opzioni = {
     data: function () {
