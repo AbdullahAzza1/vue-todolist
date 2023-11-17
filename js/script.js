@@ -3,19 +3,23 @@ const { createApp } = Vue;
 const opzioni = {
     data: function () {
         return {
-            lista: [
+            miaLista: [
                 {
-                    domandaUno: 'hai fatto i compito?'
+                    text: 'hai fatto i compito?',
+                    done: ''
                 },
                 {
-                    domandaDue: 'hai fatto la spesa?'
+                    text: 'hai fatto la spesa?',
+                    done: ''
                 },
                 {
-                    domandaTre: 'hai portato fuori il cane?'
+                    text: 'hai portato fuori il cane?',
+                    done: ''
                 }
             ]
         }
     }
+    
 }
 
 createApp(opzioni).mount('#app')
