@@ -6,15 +6,15 @@ const opzioni = {
             miaLista: [
                 {
                     text: 'hai fatto i compito?',
-                    done: ''
+                    done: 'true'
                 },
                 {
                     text: 'hai fatto la spesa?',
-                    done: ''
+                    done: 'false'
                 },
                 {
                     text: 'hai portato fuori il cane?',
-                    done: ''
+                    done: 'true'
                 }
             ]
         }
